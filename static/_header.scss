@@ -1,6 +1,10 @@
+body{
+    margin:0;
+}
+
 header{
     grid-area: header;
-    background-color: indigo;
+    background-color: $branco;
     display: flex;
     justify-content: space-around;
     align-items: center;
