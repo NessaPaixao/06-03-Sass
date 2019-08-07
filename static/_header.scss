@@ -1,0 +1,16 @@
+header{
+    grid-area: header;
+    background-color: indigo;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    h1{
+        font-family:'Lacquer', sans-serif;
+        font-size: 100pt;
+    }
+    img{
+        height: 170px;
+        width: 220px;
+        border-radius: 20%
+    }
+}

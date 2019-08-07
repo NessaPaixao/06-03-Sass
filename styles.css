@@ -1,0 +1,37 @@
+header {
+  grid-area: header;
+  background-color: indigo;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  header h1 {
+    font-family: 'Lacquer', sans-serif;
+    font-size: 100pt; }
+  header img {
+    height: 170px;
+    width: 220px;
+    border-radius: 20%; }
+
+nav {
+  grid-area: nav;
+  background-color: crimson; }
+
+aside {
+  grid-area: aside;
+  background-color: pink; }
+
+footer {
+  grid-area: footer;
+  background-color: blue; }
+
+section {
+  grid-area: section;
+  background-color: chocolate; }
+
+body {
+  display: grid;
+  grid-template-areas: "header header header header" "nav nav nav nav" "section section section aside" "section section section aside" "footer footer footer footer";
+  grid-template-rows: 200px 50px 300px 300px 200px;
+  grid-template-columns: 25% 25% 25% 25%; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,22 @@
+{
+  "name": "06-03-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NessaPaixao/06-03-Sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NessaPaixao/06-03-Sass/issues"
+  },
+  "homepage": "https://github.com/NessaPaixao/06-03-Sass#readme",
+  "devDependencies": {
+    "sass": "^1.22.9"
+  }
+}
