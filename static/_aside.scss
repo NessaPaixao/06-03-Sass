@@ -1,4 +1,24 @@
 aside{
+    
     grid-area: aside;
-    background-color: pink;
+    background-color: $branco;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 5px black solid;
+    h2{
+        font-size: 20pt;
+        font-family: $fonte;
+    }
+    input{
+        margin-bottom: 22px;
+        font-family: $fonte;
+        width: 250px;
+    }
+    img{
+        height: 250px;
+        width: 250px;
+        border-radius: 10%;
+    }
 }
